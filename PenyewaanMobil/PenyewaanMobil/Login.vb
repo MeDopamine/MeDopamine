@@ -18,6 +18,7 @@ Public Class Login
         sqlDr = sqlCmd.ExecuteReader
         sqlDr.Read()
         If sqlDr.HasRows Then
+
             Main.showContent()
             Main.LOGINToolStripMenuItem.Visible = False
             Me.Close()
